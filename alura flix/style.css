@@ -2,6 +2,10 @@ body {
       color:blueviolet;
       background: black;
 
-
-
+}
+header{
+      border-bottom: solid 2px rgb(0, 80, 112);
+      padding: 20px;
+      font-size: 32px;
+      color: hsl(350, 80%, 36%);
 }
