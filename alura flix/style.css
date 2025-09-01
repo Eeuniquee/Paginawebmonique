@@ -9,3 +9,22 @@ header{
       font-size: 32px;
       color: hsl(350, 80%, 36%);
 }
+section {
+      background: lab(68.96% -37.32 -11.01);
+      padding-bottom: 80px;
+      padding-top: 80px;
+      display: flex;
+      justify-content: center;
+}
+
+chamada-texto{
+      margin-right: 5%;
+}
+
+h1{font-size: 40px;
+
+}
+
+
+
+
