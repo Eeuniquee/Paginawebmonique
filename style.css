@@ -1,29 +1,51 @@
 body {
       color:blueviolet;
       background: black;
-
+      margin: opx;
+      font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
       border-bottom: solid 2px rgb(0, 80, 112);
       padding: 20px;
       font-size: 32px;
-      color: hsl(350, 80%, 36%);
+      color: hwb(350 7% 63%);
 }
-section {
-      background: lab(68.96% -37.32 -11.01);
+.chamada{
+      background: lch(68.96% 38.91 196.44);
       padding-bottom: 80px;
       padding-top: 80px;
       display: flex;
       justify-content: center;
 }
 
-chamada-texto{
+.chamada-texto {
       margin-right: 5%;
 }
 
 h1{font-size: 40px;
+}
+p{ font-size: 20px;
 
 }
+img {
+      height: 200px;
+      display: flex;
+
+
+}
+.categoria-videos {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+
+}
+.categoria{
+      padding-left: 20px;
+      padding-right: 20px;
+
+}
+
+
 
 
 
